@@ -124,9 +124,9 @@
                     <div class="paws">
                         <span class="icon-paw"></span>
                     </div>
-                    <h2 class="text-black mb-2">Welcome to Dogger Pet Care</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
+                    <h2 class="text-black mb-2">Welcome to Bike Rent</h2>
+<%--                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there--%>
+<%--                        live the blind texts.</p>--%>
                 </div>
             </div>
 
@@ -135,14 +135,13 @@
                     <div class="row">
                         <div class="mb-4 mb-lg-0 col-lg-6 order-lg-2" data-aos="fade-right">
                             <a href="#" class="hover-1">
-                                <img src="images/dogger_img_sm_3.jpg" alt="Image" class="img-fluid">
+                                <img src="images/bicycle-1285149_1280.jpg" alt="Image" class="img-fluid">
                             </a>
                         </div>
                         <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1" data-aos="fade-left">
-                            <h2 class="text-black">Love &amp; Care</h2>
-                            <p class="mb-4">Far far away, behind the word mountains, Separated they live in
-                                Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                            <p><a href="#" class="btn btn-primary">Read More</a></p>
+                            <h2 class="text-black">Have fun</h2>
+                            <p class="mb-4">Whether commuting for work or using for leisure, you will enjoy RenTrip for any purpose.</p>
+<%--                            <p><a href="#" class="btn btn-primary">Read More</a></p>--%>
                         </div>
                     </div>
                 </div>
@@ -153,14 +152,13 @@
                     <div class="row">
                         <div class="mb-4 mb-lg-0 col-lg-6" data-aos="fade-left">
                             <a href="#" class="hover-1">
-                                <img src="images/dogger_img_sm_1.jpg" alt="Image" class="img-fluid">
+                                <img src="images/img-69061-15777042421570.jpg" alt="Image" class="img-fluid">
                             </a>
                         </div>
                         <div class="col-lg-5 ml-auto align-self-center" data-aos="fade-right">
-                            <h2 class="text-black">Fearsome</h2>
-                            <p class="mb-4">Far far away, behind the word mountains, Separated they live in
-                                Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                            <p><a href="#" class="btn btn-primary">Read More</a></p>
+                            <h2 class="text-black">Get exercise</h2>
+                            <p class="mb-4">Biking is great exercise. Reduce your stress and improve your health.</p>
+<%--                            <p><a href="#" class="btn btn-primary">Read More</a></p>--%>
                         </div>
                     </div>
                 </div>
@@ -171,14 +169,13 @@
                     <div class="row">
                         <div class="mb-4 mb-lg-0 col-lg-6 order-lg-2" data-aos="fade-right">
                             <a href="#" class="hover-1">
-                                <img src="images/dogger_img_sm_2.jpg" alt="Image" class="img-fluid">
+                                <img src="images/bicycle-1850861_1280.jpg" alt="Image" class="img-fluid">
                             </a>
                         </div>
                         <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1" data-aos="fade-left">
-                            <h2 class="text-black">Beautiful</h2>
-                            <p class="mb-4">Far far away, behind the word mountains, Separated they live in
-                                Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                            <p><a href="#" class="btn btn-primary">Read More</a></p>
+                            <h2 class="text-black">Go green</h2>
+                            <p class="mb-4">By saving on gasoline, preventing carbon emissions and keeping pollutants out of the air, biking is not only good for you, but also good for the environment.</p>
+<%--                            <p><a href="#" class="btn btn-primary">Read More</a></p>--%>
                         </div>
                     </div>
                 </div>
@@ -207,12 +204,12 @@
 
                 </div>
                 <div class="col-lg-6 text-left heading-section mb-5" data-aos="fade-up" data-aos-delay="100">
-                    <a data-fancybox data-ratio="1.5" href="https://vimeo.com/317571768" class="video-img">
-              <span class="play">
+<%--                    <a data-fancybox data-ratio="1.5" href=https://www.youtube.com/watch?v=ArZUrJd2QXo" class="video-img">--%>
+             <%-- <span class="play">
                 <span class="icon-play"></span>
-              </span>
-                        <img src="images/dogger_img_big_1.jpg" alt="Image" class="img-fluid">
-                    </a>
+              </span>--%>
+                        <img src="images/pexels-photo-3625740.jpg" alt="Image" class="img-fluid">
+<%--                    </a>--%>
                 </div>
             </div>
         </div>
@@ -232,7 +229,7 @@
             </div>
             <div class="row accordion justify-content-center block__76208">
                 <div class="col-lg-6 order-lg-2 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="">
-                    <img src="images/dogger_img_sm_1.jpg" alt="Image" class="img-fluid rounded">
+                    <img src="images/gallery_img_4.jpeg" alt="Image" class="img-fluid rounded">
                 </div>
                 <div class="col-lg-5 mr-auto order-lg-1" data-aos="fade-up" data-aos-delay="100">
                     <div class="accordion-item">
@@ -389,53 +386,53 @@
             <div class="row no-gutters">
 
                 <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
-                   href="images/dogger_img_sm_1.jpg" data-fancybox="gal"><img src="images/dogger_img_sm_1.jpg"
+                   href="images/photo-0531cae0e662.jpeg" data-fancybox="gal"><img src="images/photo-0531cae0e662.jpeg"
+                                                                                  alt="Image" class="img-fluid"></a>
+
+                <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
+                   href="images/gallery_img_2.jpg" data-fancybox="gal"><img src="images/gallery_img_2.jpg"
                                                                               alt="Image" class="img-fluid"></a>
 
                 <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
-                   href="images/dogger_img_sm_2.jpg" data-fancybox="gal"><img src="images/dogger_img_sm_2.jpg"
+                   href="images/photo-2e524f15f231.jpeg" data-fancybox="gal"><img src="images/photo-2e524f15f231.jpeg"
+                                                                                  alt="Image" class="img-fluid"></a>
+                <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
+                   href="images/bicycle-2492347_1280.jpg" data-fancybox="gal"><img src="images/bicycle-2492347_1280.jpg"
+                                                                                   alt="Image" class="img-fluid"></a>
+
+
+                <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
+                   href="images/photo-1555094537-b2bf3757c798.jpeg" data-fancybox="gal"><img src="images/photo-1555094537-b2bf3757c798.jpeg"
                                                                               alt="Image" class="img-fluid"></a>
 
                 <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
-                   href="images/dogger_img_sm_3.jpg" data-fancybox="gal"><img src="images/dogger_img_sm_3.jpg"
+                   href="images/photo-156-f6b2d5.jpeg" data-fancybox="gal"><img src="images/photo-156-f6b2d5.jpeg"
                                                                               alt="Image" class="img-fluid"></a>
 
                 <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
-                   href="images/dogger_img_sm_4.jpg" data-fancybox="gal"><img src="images/dogger_img_sm_4.jpg"
+                   href="images/photo-153d53.jpeg" data-fancybox="gal"><img src="images/photo-153d53.jpeg"
+                                                                              alt="Image" class="img-fluid"></a>
+
+
+                <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
+                   href="images/kot-svet-progulka.jpg" data-fancybox="gal"><img src="images/kot-svet-progulka.jpg"
+                                                                                alt="Image" class="img-fluid"></a>
+
+                <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
+                   href="images/bicycle-1285149_1280.jpg" data-fancybox="gal"><img src="images/bicycle-1285149_1280.jpg"
                                                                               alt="Image" class="img-fluid"></a>
 
                 <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
-                   href="images/dogger_img_sm_5.jpg" data-fancybox="gal"><img src="images/dogger_img_sm_5.jpg"
+                   href="images/photo-1541502821057-f6a7bbfe1f51.jpeg" data-fancybox="gal"><img src="images/photo-1541502821057-f6a7bbfe1f51.jpeg"
+                                                                                                alt="Image" class="img-fluid"></a>
+
+                <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
+                   href="images/photo--fb4cc491a229.jpeg" data-fancybox="gal"><img src="images/photo--fb4cc491a229.jpeg"
                                                                               alt="Image" class="img-fluid"></a>
 
                 <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
-                   href="images/dogger_img_sm_6.jpg" data-fancybox="gal"><img src="images/dogger_img_sm_6.jpg"
-                                                                              alt="Image" class="img-fluid"></a>
-
-                <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
-                   href="images/dogger_img_sm_1.jpg" data-fancybox="gal"><img src="images/dogger_img_sm_1.jpg"
-                                                                              alt="Image" class="img-fluid"></a>
-
-                <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
-                   href="images/dogger_img_sm_2.jpg" data-fancybox="gal"><img src="images/dogger_img_sm_2.jpg"
-                                                                              alt="Image" class="img-fluid"></a>
-
-                <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
-                   href="images/dogger_img_sm_3.jpg" data-fancybox="gal"><img src="images/dogger_img_sm_3.jpg"
-                                                                              alt="Image" class="img-fluid"></a>
-
-                <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
-                   href="images/dogger_img_sm_4.jpg" data-fancybox="gal"><img src="images/dogger_img_sm_4.jpg"
-                                                                              alt="Image" class="img-fluid"></a>
-
-                <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
-                   href="images/dogger_img_sm_5.jpg" data-fancybox="gal"><img src="images/dogger_img_sm_5.jpg"
-                                                                              alt="Image" class="img-fluid"></a>
-
-                <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100"
-                   href="images/dogger_img_sm_6.jpg" data-fancybox="gal"><img src="images/dogger_img_sm_6.jpg"
-                                                                              alt="Image" class="img-fluid"></a>
-
+                   href="images/bicycle-1850861_1280.jpg" data-fancybox="gal"><img src="images/bicycle-1850861_1280.jpg"
+                                                                                   alt="Image" class="img-fluid"></a>
             </div>
         </div>
     </section>
