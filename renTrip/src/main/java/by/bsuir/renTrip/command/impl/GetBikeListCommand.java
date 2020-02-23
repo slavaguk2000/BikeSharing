@@ -23,6 +23,7 @@ public class GetBikeListCommand implements ActionCommand {
         router.setPage(ConfigurationManager.getProperty("path.page.bicycles"));
         router.setWay(PageChangeType.FORWARD);
         List<Bike> bikes = BikeRepository.getInstance().query(new BikeSelectAllSpecification());
+        bikes.forEach(o->o.setImage("bike_image/" + o.getImage()));
         request.getSession().setAttribute("bikes", bikes);
         return router;
     }

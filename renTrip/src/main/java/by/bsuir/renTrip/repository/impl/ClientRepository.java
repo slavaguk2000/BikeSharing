@@ -41,8 +41,8 @@ public class ClientRepository implements AbstractRepository<Client> {
     public List<Client> query(QuerySpecification specification) {
         return jdbcTemplate.query(specification.specify(), (resultSet, i) -> {
             Client client = new Client();
-            client.setId(resultSet.getInt("id"));
-            client.setRole(ClientType.valueOf(resultSet.getString("role").toUpperCase()));
+            client.setId(resultSet.getInt("client.id"));
+            client.setRole(ClientType.valueOf(resultSet.getString("role.name").toUpperCase()));
             client.setLogin(resultSet.getString("login"));
             client.setPassword(resultSet.getString("password"));
             client.setPhone(resultSet.getString("phone"));

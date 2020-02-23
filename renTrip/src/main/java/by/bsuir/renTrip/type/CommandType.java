@@ -2,8 +2,7 @@ package by.bsuir.renTrip.type;
 
 
 import by.bsuir.renTrip.command.ActionCommand;
-import by.bsuir.renTrip.command.impl.GetBikeListCommand;
-import by.bsuir.renTrip.command.impl.LogoutCommand;
+import by.bsuir.renTrip.command.impl.*;
 
 public enum CommandType {
     LOGOUT {
@@ -14,6 +13,21 @@ public enum CommandType {
     BIKES{
         {
             this.command = new GetBikeListCommand();
+        }
+    },
+    ADD_BIKE{
+        {
+            this.command = new AddBikeCommand();
+        }
+    },
+    LOGIN{
+        {
+            this.command = new LoginCommand();
+        }
+    },
+    REGISTRATION{
+        {
+            this.command = new RegistrationCommand();
         }
     };
 

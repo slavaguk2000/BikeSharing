@@ -17,7 +17,7 @@ public class ActionFactory {
 
     public ActionCommand defineCommand(String commandName) {
         if (commandName == null || commandName.isEmpty()) {
-            Logger.error("Unidentified command" + commandName);
+            Logger.error("Unidentified command " + commandName);
             throw new RuntimeException("Unidentified command");
         }
 
@@ -26,8 +26,8 @@ public class ActionFactory {
             CommandType currentEnum = CommandType.valueOf(commandName.toUpperCase());
             current = currentEnum.getCurrentCommand();
         } catch (IllegalArgumentException e) {
-           Logger.error("Unidentified command" + commandName);
-           throw new RuntimeException("Unidentified command", e);
+           Logger.error("Unidentified command " + commandName);
+           throw new RuntimeException("Unidentified command ", e);
         }
         return current;
     }

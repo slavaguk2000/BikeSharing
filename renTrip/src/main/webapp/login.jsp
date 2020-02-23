@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -87,7 +88,7 @@
                                     <li><a href="index.jsp#gallery-section" class="nav-link">Gallery</a></li>
                                 </ul>
                             </li>
-                            <li><a href="bicycles.jsp" class="nav-link">Bicycles</a></li>
+                            <li><a href="renTrip?command=bikes" class="nav-link">Bicycles</a></li>
                             <li><a href="#login" class="nav-link">Sign In</a></li>
                             <li><a href="registration.jsp" class="nav-link">Sign Up</a></li>
                         </ul>
@@ -113,7 +114,8 @@
         <br/>
         <div class="w3ls-login box">
             <!-- form starts here -->
-            <form action="#" method="post">
+            <form action="renTrip" method="post">
+                <input type="hidden" name="command" value="login"/>
                 <div class="agile-field-txt">
                     <input type="text" name="phone" placeholder="+375 33 123 45 67" required=""/>
                 </div>
@@ -123,6 +125,9 @@
                 <div class="w3ls-bot">
                     <input type="submit" value="LOGIN" class="btn btn-primary">
                 </div>
+                <c:if test="${errorLogOrPass}">
+                    Invalid login or password
+                </c:if>
             </form>
         </div>
 

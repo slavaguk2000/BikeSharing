@@ -86,7 +86,7 @@
                                     <li><a href="index.jsp#gallery-section" class="nav-link">Gallery</a></li>
                                 </ul>
                             </li>
-                            <li><a href="bicycles.jsp" class="nav-link">Bicycles</a></li>
+                            <li><a href="renTrip?command=bikes" class="nav-link">Bicycles</a></li>
                             <li><a href="login.jsp" class="nav-link">Sign In</a></li>
                             <li><a href="#registration" class="nav-link">Sign Up</a></li>
                         </ul>
@@ -112,12 +112,16 @@
         <br/>
         <div class="w3ls-login box">
             <!-- form starts here -->
-            <form action="#" method="post">
+            <form action="renTrip" method="post">
+                <input type="hidden" name="command" value="registration"/>
                 <div class="agile-field-txt">
-                    <input type="text" name="phone" placeholder="+375 33 123 45 67" required="" />
+                    <input type="text" name="phone"
+                           pattern="^+\d{12}$"
+                           maxlength="18"
+                           placeholder="+375 33 123 45 67" required="" />
                 </div>
                 <div class="agile-field-txt">
-                    <input type="text" name="username" placeholder="username" required="" />
+                    <input type="text" name="login" placeholder="username" required="" />
                 </div>
                 <div class="agile-field-txt">
                     <input type="password" name="password" placeholder="******" required="" id="myInput" />
