@@ -68,7 +68,7 @@
                                 <a href="#about-section" class="nav-link">About</a>
                                 <ul class="dropdown">
                                     <li><a href="#faq-section" class="nav-link">FAQ</a></li>
-                                    <li><a href="#services-section" class="nav-link">Services</a></li>
+                                    <li><a href="#services-section" class="nav-link">Why RenTrip</a></li>
                                     <li><a href="#gallery-section" class="nav-link">Gallery</a></li>
                                 </ul>
                             </li>
@@ -122,11 +122,9 @@
             <div class="row justify-content-center" data-aos="fade-up">
                 <div class="col-lg-6 text-center heading-section mb-5">
                     <div class="paws">
-                        <span class="icon-paw"></span>
+                        <span class="icon-bicycle"></span>
                     </div>
                     <h2 class="text-black mb-2">Welcome to Bike Rent</h2>
-<%--                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there--%>
-<%--                        live the blind texts.</p>--%>
                 </div>
             </div>
 
@@ -141,7 +139,6 @@
                         <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1" data-aos="fade-left">
                             <h2 class="text-black">Have fun</h2>
                             <p class="mb-4">Whether commuting for work or using for leisure, you will enjoy RenTrip for any purpose.</p>
-<%--                            <p><a href="#" class="btn btn-primary">Read More</a></p>--%>
                         </div>
                     </div>
                 </div>
@@ -158,7 +155,6 @@
                         <div class="col-lg-5 ml-auto align-self-center" data-aos="fade-right">
                             <h2 class="text-black">Get exercise</h2>
                             <p class="mb-4">Biking is great exercise. Reduce your stress and improve your health.</p>
-<%--                            <p><a href="#" class="btn btn-primary">Read More</a></p>--%>
                         </div>
                     </div>
                 </div>
@@ -175,7 +171,6 @@
                         <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1" data-aos="fade-left">
                             <h2 class="text-black">Go green</h2>
                             <p class="mb-4">By saving on gasoline, preventing carbon emissions and keeping pollutants out of the air, biking is not only good for you, but also good for the environment.</p>
-<%--                            <p><a href="#" class="btn btn-primary">Read More</a></p>--%>
                         </div>
                     </div>
                 </div>
@@ -187,29 +182,18 @@
         <div class="container">
             <div class="row justify-content-center" data-aos="fade-up">
                 <div class="col-lg-5 align-self-center mr-auto text-left heading-section mb-5">
-                    <div class="paws ml-4">
-                        <span class="icon-paw"></span>
+                    <div class="paws ml-4" style="left: 37px">
+                        <span class="icon-bicycle"></span>
                     </div>
                     <h2 class="text-black mb-3">About Us</h2>
-                    <p class="lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
-                        language ocean.</p>
-                    <p class="text-muted mb-4">A small river named Duden flows by their place and supplies it with the
-                        necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-                        into your mouth.</p>
-                    <ul class="list-unstyled ul-paw primary mb-0">
-                        <li>A small river named Duden flows</li>
-                        <li>It is a paradisematic country</li>
-                        <li>Roasted parts of sentences fly</li>
-                    </ul>
+                    <p class="text-muted mb-4">RenTrip is the public bike rent system in Minsk.<br/>
+                        We buy our bikes only from top manufacturers, and we keep up with the latest trends in the industry to make sure we're providing you with the best possible mountain or hybrid bikes. We also offer super-cushy gel seats at no additional cost.<br/>
+                        We keep our rental fleet constantly updated, so you're sure to get a top-flight ride. And every time one of our bikes is returned after a rental, our experienced mechanics give it a thorough inspection to make sure it's in perfect operating condition. What that means for you is great equipment, superb service and a fantastic day of biking.
+                    </p>
 
                 </div>
                 <div class="col-lg-6 text-left heading-section mb-5" data-aos="fade-up" data-aos-delay="100">
-<%--                    <a data-fancybox data-ratio="1.5" href=https://www.youtube.com/watch?v=ArZUrJd2QXo" class="video-img">--%>
-             <%-- <span class="play">
-                <span class="icon-play"></span>
-              </span>--%>
                         <img src="images/pexels-photo-3625740.jpg" alt="Image" class="img-fluid">
-<%--                    </a>--%>
                 </div>
             </div>
         </div>
@@ -220,30 +204,26 @@
             <div class="row justify-content-center" data-aos="fade-up">
                 <div class="col-lg-6 text-center heading-section mb-5">
                     <div class="paws">
-                        <span class="icon-paw"></span>
+                        <span class="icon-bicycle"></span>
                     </div>
                     <h2 class="text-black mb-2">Frequently Ask Questions</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
                 </div>
             </div>
             <div class="row accordion justify-content-center block__76208">
                 <div class="col-lg-6 order-lg-2 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="">
-                    <img src="images/gallery_img_4.jpeg" alt="Image" class="img-fluid rounded">
+                    <img src="images/gallery_img_4.jpg" alt="Image" class="img-fluid rounded">
                 </div>
                 <div class="col-lg-5 mr-auto order-lg-1" data-aos="fade-up" data-aos-delay="100">
                     <div class="accordion-item">
                         <h3 class="mb-0 heading">
                             <a class="btn-block" data-toggle="collapse" href="#collapseFive" role="button"
-                               aria-expanded="true" aria-controls="collapseFive">Should I stop letting my dog sleep with
-                                me at night?<span class="icon"></span></a>
+                               aria-expanded="true" aria-controls="collapseFive">Can I walk in and rent a bicycle?
+                                <span class="icon"></span></a>
                         </h3>
                         <div id="collapseFive" class="collapse show" aria-labelledby="headingOne"
                              data-parent="#accordion">
                             <div class="body-text">
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                    Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right
-                                    at the coast of the Semantics, a large language ocean.</p>
+                                <p>Unfortunately, we only do online reservations.</p>
                             </div>
                         </div>
                     </div> <!-- .accordion-item -->
@@ -251,14 +231,13 @@
                     <div class="accordion-item">
                         <h3 class="mb-0 heading">
                             <a class="btn-block" data-toggle="collapse" href="#collapseSix" role="button"
-                               aria-expanded="false" aria-controls="collapseSix">Is it okay to dress up your dog?<span
-                                    class="icon"></span></a>
+                               aria-expanded="false" aria-controls="collapseSix">Is a deposit required when I rent a bicycle?
+                                <span class="icon"></span></a>
                         </h3>
                         <div id="collapseSix" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="body-text">
-                                <p>A small river named Duden flows by their place and supplies it with the necessary
-                                    regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-                                    into your mouth.</p>
+                                <p>No, but we do require a valid passport. The renter is responsible for any damaged
+                                    caused to the bicycle while in their possession.</p>
                             </div>
                         </div>
                     </div> <!-- .accordion-item -->
@@ -266,14 +245,12 @@
                     <div class="accordion-item">
                         <h3 class="mb-0 heading">
                             <a class="btn-block" data-toggle="collapse" href="#collapseSeven" role="button"
-                               aria-expanded="false" aria-controls="collapseSeven">Why do dogs like belly rubs so
-                                much?<span class="icon"></span></a>
+                               aria-expanded="false" aria-controls="collapseSeven">Can I rent more than one bike at a time?
+                                <span class="icon"></span></a>
                         </h3>
                         <div id="collapseSeven" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="body-text">
-                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                                    unorthographic life One day however a small line of blind text by the name of Lorem
-                                    Ipsum decided to leave for the far World of Grammar.</p>
+                                <p>Yes. Users are able to rent up to three bikes at a time on their account.</p>
                             </div>
                         </div>
                     </div> <!-- .accordion-item -->
@@ -281,22 +258,60 @@
                     <div class="accordion-item">
                         <h3 class="mb-0 heading">
                             <a class="btn-block" data-toggle="collapse" href="#collapseEight" role="button"
-                               aria-expanded="false" aria-controls="collapseEight">Is a warm dry nose a sign of illness
-                                in dogs?<span class="icon"></span></a>
+                               aria-expanded="false" aria-controls="collapseEight">What if I want to keep a
+                                bike all day or longer?<span class="icon"></span></a>
                         </h3>
                         <div id="collapseEight" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="body-text">
-                                <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas,
-                                    wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
-                                    She packed her seven versalia, put her initial into the belt and made herself on the
-                                    way.</p>
+                                <p>We only do daily rentals. All bicycles must be returned the same day.</p>
                             </div>
                         </div>
                     </div> <!-- .accordion-item -->
 
+                    <div class="accordion-item">
+                        <h3 class="mb-0 heading">
+                            <a class="btn-block" data-toggle="collapse" href="#collapseNine" role="button"
+                               aria-expanded="false" aria-controls="collapseNine">What should I wear while
+                                riding one of our rental bicycles?<span class="icon"></span></a>
+                        </h3>
+                        <div id="collapseNine" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="body-text">
+                                <p>We suggest you to wear something casual and comfortable, appropriate dress for the
+                                    weather conditions is advised. We also recommend wearing closed toed shoes;
+                                    sandals or flip-flops are discouraged because of the high chances of toe injuries
+                                    as well as the chance that they may fall off your feet while riding creating a
+                                    safety hazard.</p>
+                            </div>
+                        </div>
+                    </div> <!-- .accordion-item -->
+
+                    <div class="accordion-item">
+                        <h3 class="mb-0 heading">
+                            <a class="btn-block" data-toggle="collapse" href="#collapseTen" role="button"
+                               aria-expanded="false" aria-controls="collapseTen">What if I have questions
+                                about how to operate the bike?<span class="icon"></span></a>
+                        </h3>
+                        <div id="collapseTen" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="body-text">
+                                <p>No problem! Please feel free to ask any of our employees for help when you pick up your rental.
+                                    We'll make sure you are comfortable and confident with operating our equipment.</p>
+                            </div>
+                        </div>
+                    </div> <!-- .accordion-item -->
+
+                    <div class="accordion-item">
+                        <h3 class="mb-0 heading">
+                            <a class="btn-block" data-toggle="collapse" href="#collapseEleven" role="button"
+                               aria-expanded="false" aria-controls="collapseEleven">What if I have a flat tire?
+                                <span class="icon"></span></a>
+                        </h3>
+                        <div id="collapseEleven" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="body-text">
+                                <p>Call us at +375 29 666 66 66 and we will come and either fix the flat or replace the whole bicycle.</p>
+                            </div>
+                        </div>
+                    </div> <!-- .accordion-item -->
                 </div>
-
-
             </div>
         </div>
     </section>
@@ -306,69 +321,42 @@
             <div class="row justify-content-center" data-aos="fade-up">
                 <div class="col-lg-6 text-center heading-section mb-5">
                     <div class="paws">
-                        <span class="icon-paw"></span>
+                        <span class="icon-bicycle"></span>
                     </div>
-                    <h2 class="text-black mb-2">Our Services</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
+                    <h2 class="text-black mb-2">Why RenTrip?</h2>
                 </div>
             </div>
+            <br/>
+            <br/>
+            <br/>
             <div class="row">
                 <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="">
-
                     <div class="block_service">
-                        <img src="images/dogger_checkup.svg" alt="Image mb-5">
-                        <h3>Dog Checkup</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. </p>
+                        <div class="icons">
+                            <span class="icon-map-marker"></span>
+                        </div>
+                        <h3>Always one close to you</h3>
+                        <p>Pick-up or leave your bike at any of our locations.</p>
                     </div>
-
                 </div>
                 <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="block_service">
-                        <img src="images/dogger_dermatology.svg" alt="Image mb-5">
-                        <h3>Dog Dermatology</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. </p>
+                        <div class="icons">
+                            <span class="icon-clock-o"></span>
+                        </div>
+                        <h3>Longest shop hours</h3>
+                        <p>We have the longest opening hours in Minsk. No worries about bringing in your bike (too) late.</p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="block_service">
-                        <img src="images/dogger_bones.svg" alt="Image mb-5">
-                        <h3>For Strong Teeth</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. </p>
+                        <div class="icons">
+                            <span class="icon-heart"></span>
+                        </div>
+                        <h3>Bikes for everyone</h3>
+                        <p>We have a wide range of bikes to make sure that the whole family can take the bike.</p>
                     </div>
                 </div>
-
-
-                <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="">
-
-                    <div class="block_service">
-                        <img src="images/dogger_veterinary.svg" alt="Image mb-5">
-                        <h3>Dog First Aid</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. </p>
-                    </div>
-
-                </div>
-                <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="block_service">
-                        <img src="images/dogger_dryer.svg" alt="Image mb-5">
-                        <h3>Dog Dryer</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. </p>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="block_service">
-                        <img src="images/dogger_veterinarian.svg" alt="Image mb-5">
-                        <h3>Expert Veterinarian</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. </p>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
@@ -378,7 +366,7 @@
             <div class="row justify-content-center" data-aos="fade-up">
                 <div class="col-lg-6 text-center heading-section mb-5">
                     <div class="paws">
-                        <span class="icon-paw"></span>
+                        <span class="icon-bicycle"></span>
                     </div>
                     <h2 class="text-black mb-2">Photo Gallery</h2>
                 </div>
@@ -443,32 +431,30 @@
             <div class="row">
                 <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-5">
+                        <%--<div class="col-md-5">
                             <h2 class="footer-heading mb-4">About Us</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam
                                 voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
-                        </div>
-                        <div class="col-md-3 ml-auto">
+                        </div>--%>
+                        <div class="col-md-5 ml-auto">
                             <h2 class="footer-heading mb-4">Quick Links</h2>
                             <ul class="list-unstyled">
                                 <li><a href="#about-section" class="smoothscroll">About Us</a></li>
                                 <li><a href="#faq-section" class="smoothscroll">FAQ</a></li>
-                                <li><a href="#services-section" class="smoothscroll">Services</a></li>
+                                <li><a href="#services-section" class="smoothscroll">Why RenTrip</a></li>
                                 <li><a href="#gallery-section" class="smoothscroll">Gallery</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 ml-auto">
-                            <h2 class="footer-heading mb-4">Contacts</h2>
+                        <div class="col-md-5 ml-auto">
+                            <h2 class="footer-heading mb-4">Customer service</h2>
                             <ul class="list-unstyled">
-                                +375 33 666 666 666
+                                Every day from 9:00 AM till 11:00 PM
                             </ul>
-                            <h2 class="footer-heading mb-4">Address</h2>
                             <ul class="list-unstyled">
-                                Minsk
+                                Phone: +375 44 404 40 40
                             </ul>
-                            <h2 class="footer-heading mb-4">Timetable</h2>
                             <ul class="list-unstyled">
-                                10:00 - 18:00
+                                Email: rentrip@gmail.com
                             </ul>
                         </div>
                     </div>
@@ -480,9 +466,9 @@
                         <p class="copyright"><small>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                            All rights reserved | This template is made with <i class="icon-heart text-danger"
-                                                                                aria-hidden="true"></i> by <a
-                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                            All rights reserved | <i class="icon-heart text-danger"
+                                                                                aria-hidden="true"></i> <a
+                                href="https://colorlib.com" target="_blank">RenTrip</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </small></p>
 

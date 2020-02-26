@@ -143,31 +143,28 @@
             <div class="row">
                 <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-5">
-                            <h2 class="footer-heading mb-4">About Us</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
-                        </div>
-                        <div class="col-md-3 ml-auto">
+                        <div class="col-md-5 ml-auto">
                             <h2 class="footer-heading mb-4">Quick Links</h2>
-                            <ul class="list-unstyled">
-                                <li><a href="index.jsp#about-section" class="smoothscroll">About Us</a></li>
-                                <li><a href="index.jsp#faq-section" class="smoothscroll">FAQ</a></li>
-                                <li><a href="index.jsp#services-section" class="smoothscroll">Services</a></li>
-                                <li><a href="index.jsp#gallery-section" class="smoothscroll">Gallery</a></li>
-                            </ul>
+                            <div class="col-md-3 ml-auto">
+                                <h2 class="footer-heading mb-4">Quick Links</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="index.jsp#about-section" class="smoothscroll">About Us</a></li>
+                                    <li><a href="index.jsp#faq-section" class="smoothscroll">FAQ</a></li>
+                                    <li><a href="index.jsp#services-section" class="smoothscroll">Services</a></li>
+                                    <li><a href="index.jsp#gallery-section" class="smoothscroll">Gallery</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-md-3 ml-auto">
-                            <h2 class="footer-heading mb-4">Contacts</h2>
+                        <div class="col-md-5 ml-auto">
+                            <h2 class="footer-heading mb-4">Customer service</h2>
                             <ul class="list-unstyled">
-                                +375 33 666 666 666
+                                Every day from 9:00 AM till 11:00 PM
                             </ul>
-                            <h2 class="footer-heading mb-4">Address</h2>
                             <ul class="list-unstyled">
-                                Minsk
+                                Phone: +375 44 404 40 40
                             </ul>
-                            <h2 class="footer-heading mb-4">Timetable</h2>
                             <ul class="list-unstyled">
-                                10:00 - 18:00
+                                Email: rentrip@gmail.com
                             </ul>
                         </div>
                     </div>
@@ -178,8 +175,12 @@
                     <div class="border-top pt-5">
                         <p class="copyright"><small>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small></p>
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                            All rights reserved | <i class="icon-heart text-danger"
+                                                     aria-hidden="true"></i> <a
+                                href="https://colorlib.com" target="_blank">RenTrip</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </small></p>
 
                     </div>
                 </div>
