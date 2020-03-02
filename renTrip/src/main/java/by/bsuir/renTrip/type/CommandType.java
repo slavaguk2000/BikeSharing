@@ -9,6 +9,11 @@ public enum CommandType {
         {
             this.command = new LogoutCommand();
         }
+    },
+    BIKES{
+        {
+            this.command = new GetBikeListCommand();
+        }
     };
 
     ActionCommand command;
