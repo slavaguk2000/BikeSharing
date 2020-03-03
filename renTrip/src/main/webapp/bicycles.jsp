@@ -73,8 +73,18 @@
                                 </ul>
                             </li>
                             <li><a href="renTrip?command=bikes" class="nav-link">Bicycles</a></li>
+                            <%--<c:if test="${role eq null}">
                             <li><a href="login.jsp" class="nav-link">Sign In</a></li>
                             <li><a href="registration.jsp" class="nav-link">Sign Up</a></li>
+                            </c:if>--%>
+                            <c:if test="${role != null}">
+                                <li class="has-children">
+                                    <a class="nav-link">${login}</a>
+                                    <ul class="dropdown">
+                                        <li><a href="renTrip?command=logout" class="nav-link">Log Out</a></li>
+                                    </ul>
+                                </li>
+                            </c:if>
                         </ul>
                     </nav>
                 </div>
@@ -139,8 +149,7 @@
                 <div class="col-md-9">
                     <div class="row">
                         <div class="col-md-5 ml-auto">
-                            <h2 class="footer-heading mb-4">Quick Links</h2>
-                            <div class="col-md-3 ml-auto">
+
                                 <h2 class="footer-heading mb-4">Quick Links</h2>
                                 <ul class="list-unstyled">
                                     <li><a href="index.jsp#about-section" class="smoothscroll">About Us</a></li>
@@ -148,7 +157,7 @@
                                     <li><a href="index.jsp#services-section" class="smoothscroll">Services</a></li>
                                     <li><a href="index.jsp#gallery-section" class="smoothscroll">Gallery</a></li>
                                 </ul>
-                            </div>
+
                         </div>
                         <div class="col-md-5 ml-auto">
                             <h2 class="footer-heading mb-4">Customer service</h2>

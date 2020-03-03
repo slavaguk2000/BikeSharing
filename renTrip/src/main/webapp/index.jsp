@@ -73,10 +73,10 @@
                                 </ul>
                             </li>
                             <li><a href="renTrip?command=bikes" class="nav-link">Bicycles</a></li>
-                            <c:if test="${role eq null}">
+                            <%--<c:if test="${role eq null}">
                                 <li><a href="login.jsp" class="nav-link">Sign In</a></li>
                                 <li><a href="registration.jsp" class="nav-link">Sign Up</a></li>
-                            </c:if>
+                            </c:if>--%>
                             <c:if test="${role != null}">
                                 <li class="has-children">
                                     <a class="nav-link">${login}</a>
@@ -335,8 +335,8 @@
                         <div class="icons">
                             <span class="icon-map-marker"></span>
                         </div>
-                        <h3>Always one close to you</h3>
-                        <p>Pick-up or leave your bike at any of our locations.</p>
+                        <h3 style="text-align: center">Always one close to you</h3>
+                        <p style="text-align: center">Pick-up or leave your bike at any of our locations.</p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
@@ -344,8 +344,8 @@
                         <div class="icons">
                             <span class="icon-clock-o"></span>
                         </div>
-                        <h3>Longest shop hours</h3>
-                        <p>We have the longest opening hours in Minsk. No worries about bringing in your bike (too) late.</p>
+                        <h3 style="text-align: center">Longest shop hours</h3>
+                        <p style="text-align: center">We have the longest opening hours in Minsk. No worries about bringing in your bike (too) late.</p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="200">
@@ -353,8 +353,8 @@
                         <div class="icons">
                             <span class="icon-heart"></span>
                         </div>
-                        <h3>Bikes for everyone</h3>
-                        <p>We have a wide range of bikes to make sure that the whole family can take the bike.</p>
+                        <h3 style="text-align: center">Bikes for everyone</h3>
+                        <p style="text-align: center">We have a wide range of bikes to make sure that the whole family can take the bike.</p>
                     </div>
                 </div>
             </div>
