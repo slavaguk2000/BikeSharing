@@ -14,8 +14,17 @@ public enum CommandType {
         {
             this.command = new GetBikeListCommand();
         }
+    },
+    LOGIN{
+        {
+            this.command = new LoginCommand();
+        }
+    },
+    REGISTRATION{
+        {
+            this.command = new RegistrationCommand();
+        }
     };
-
     ActionCommand command;
 
     public ActionCommand getCurrentCommand() {
