@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -23,7 +24,6 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
-
 
     <script>
         addEventListener("load", function () {
@@ -87,9 +87,11 @@
                                     <li><a href="index.jsp#gallery-section" class="nav-link">Gallery</a></li>
                                 </ul>
                             </li>
-                            <li><a href="bicycles.jsp" class="nav-link">Bicycles</a></li>
-                            <li><a href="#login" class="nav-link">Sign In</a></li>
-                            <li><a href="registration.jsp" class="nav-link">Sign Up</a></li>
+                            <li><a href="renTrip?command=bikes" class="nav-link">Bicycles</a></li>
+                            <c:if test="${role eq null}">
+                                <li><a href="login.jsp" class="nav-link">Sign In</a></li>
+                                <li><a href="registration.jsp" class="nav-link">Sign Up</a></li>
+                            </c:if>
                         </ul>
                     </nav>
                 </div>
@@ -113,9 +115,13 @@
         <br/>
         <div class="w3ls-login box">
             <!-- form starts here -->
-            <form action="#" method="post">
+            <form action="renTrip" method="post">
+                <input type="hidden" name="command" value="login"/>
                 <div class="agile-field-txt">
-                    <input type="text" name="phone" placeholder="+375 33 123 45 67" required=""/>
+                    <input type="text" name="phone"
+                           pattern="[0-9]{3}(\s)?[0-9]{2}(\s)?[0-9]{3}(\s)?[0-9]{2}(\s)?[0-9]{2}"
+                           maxlength="16"
+                           placeholder="375 33 123 45 67" required=""/>
                 </div>
                 <div class="agile-field-txt">
                     <input type="password" name="password" placeholder="******" required="" id="myInput"/>
@@ -123,6 +129,9 @@
                 <div class="w3ls-bot">
                     <input type="submit" value="LOGIN" class="btn btn-primary">
                 </div>
+                <c:if test="${errorLogOrPass}">
+                    Invalid login or password
+                </c:if>
             </form>
         </div>
 
@@ -137,32 +146,26 @@
             <div class="row">
                 <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-5">
-                            <h2 class="footer-heading mb-4">About Us</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam
-                                voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                            <div class="col-md-3 ml-auto">
+                                <h2 class="footer-heading mb-4">Quick Links</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="index.jsp#about-section" class="smoothscroll">About Us</a></li>
+                                    <li><a href="index.jsp#faq-section" class="smoothscroll">FAQ</a></li>
+                                    <li><a href="index.jsp#services-section" class="smoothscroll">Services</a></li>
+                                    <li><a href="index.jsp#gallery-section" class="smoothscroll">Gallery</a></li>
+                                </ul>
+
                         </div>
-                        <div class="col-md-3 ml-auto">
-                            <h2 class="footer-heading mb-4">Quick Links</h2>
+                        <div class="col-md-5 ml-auto">
+                            <h2 class="footer-heading mb-4">Customer service</h2>
                             <ul class="list-unstyled">
-                                <li><a href="index.jsp#about-section" class="smoothscroll">About Us</a></li>
-                                <li><a href="index.jsp#faq-section" class="smoothscroll">FAQ</a></li>
-                                <li><a href="index.jsp#services-section" class="smoothscroll">Services</a></li>
-                                <li><a href="index.jsp#gallery-section" class="smoothscroll">Gallery</a></li>
+                                Every day from 9:00 AM till 11:00 PM
                             </ul>
-                        </div>
-                        <div class="col-md-3 ml-auto">
-                            <h2 class="footer-heading mb-4">Contacts</h2>
                             <ul class="list-unstyled">
-                                +375 33 666 666 666
+                                Phone: +375 44 404 40 40
                             </ul>
-                            <h2 class="footer-heading mb-4">Address</h2>
                             <ul class="list-unstyled">
-                                Minsk
-                            </ul>
-                            <h2 class="footer-heading mb-4">Timetable</h2>
-                            <ul class="list-unstyled">
-                                10:00 - 18:00
+                                Email: rentrip@gmail.com
                             </ul>
                         </div>
                     </div>
@@ -174,9 +177,9 @@
                         <p class="copyright"><small>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                            All rights reserved | This template is made with <i class="icon-heart text-danger"
-                                                                                aria-hidden="true"></i> by <a
-                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                            All rights reserved | <i class="icon-heart text-danger"
+                                                     aria-hidden="true"></i> <a
+                                href="https://colorlib.com" target="_blank">RenTrip</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </small></p>
 
@@ -186,7 +189,6 @@
             </div>
         </div>
     </footer>
-
 
 </div> <!-- .site-wrap -->
 

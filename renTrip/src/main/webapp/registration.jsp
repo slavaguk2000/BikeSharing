@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -86,9 +87,11 @@
                                     <li><a href="index.jsp#gallery-section" class="nav-link">Gallery</a></li>
                                 </ul>
                             </li>
-                            <li><a href="bicycles.jsp" class="nav-link">Bicycles</a></li>
-                            <li><a href="login.jsp" class="nav-link">Sign In</a></li>
-                            <li><a href="#registration" class="nav-link">Sign Up</a></li>
+                            <li><a href="renTrip?command=bikes" class="nav-link">Bicycles</a></li>
+                            <c:if test="${role eq null}">
+                                <li><a href="login.jsp" class="nav-link">Sign In</a></li>
+                                <li><a href="registration.jsp" class="nav-link">Sign Up</a></li>
+                            </c:if>
                         </ul>
                     </nav>
                 </div>
@@ -112,15 +115,19 @@
         <br/>
         <div class="w3ls-login box">
             <!-- form starts here -->
-            <form action="#" method="post">
+            <form action="renTrip" method="post">
+                <input type="hidden" name="command" value="registration"/>
                 <div class="agile-field-txt">
-                    <input type="text" name="phone" placeholder="+375 33 123 45 67" required="" />
+                    <input type="text" name="phone"
+                           pattern="[0-9]{3}(\s)?[0-9]{2}(\s)?[0-9]{3}(\s)?[0-9]{2}(\s)?[0-9]{2}"
+                           maxlength="16"
+                           placeholder="375 33 123 45 67" required />
                 </div>
                 <div class="agile-field-txt">
-                    <input type="text" name="username" placeholder="username" required="" />
+                    <input type="text" name="login" placeholder="username" maxlength="20" required />
                 </div>
                 <div class="agile-field-txt">
-                    <input type="password" name="password" placeholder="******" required="" id="myInput" />
+                    <input type="password" name="password" placeholder="******" maxlength="20" required id="myInput" />
                 </div>
                 <div class="w3ls-bot">
                     <input type="submit" value="SIGN UP" class = "btn btn-primary">
@@ -139,10 +146,6 @@
             <div class="row">
                 <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-5">
-                            <h2 class="footer-heading mb-4">About Us</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
-                        </div>
                         <div class="col-md-3 ml-auto">
                             <h2 class="footer-heading mb-4">Quick Links</h2>
                             <ul class="list-unstyled">
@@ -151,19 +154,18 @@
                                 <li><a href="index.jsp#services-section" class="smoothscroll">Services</a></li>
                                 <li><a href="index.jsp#gallery-section" class="smoothscroll">Gallery</a></li>
                             </ul>
+
                         </div>
-                        <div class="col-md-3 ml-auto">
-                            <h2 class="footer-heading mb-4">Contacts</h2>
+                        <div class="col-md-5 ml-auto">
+                            <h2 class="footer-heading mb-4">Customer service</h2>
                             <ul class="list-unstyled">
-                                +375 33 666 666 666
+                                Every day from 9:00 AM till 11:00 PM
                             </ul>
-                            <h2 class="footer-heading mb-4">Address</h2>
                             <ul class="list-unstyled">
-                                Minsk
+                                Phone: +375 44 404 40 40
                             </ul>
-                            <h2 class="footer-heading mb-4">Timetable</h2>
                             <ul class="list-unstyled">
-                                10:00 - 18:00
+                                Email: rentrip@gmail.com
                             </ul>
                         </div>
                     </div>
@@ -174,8 +176,12 @@
                     <div class="border-top pt-5">
                         <p class="copyright"><small>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small></p>
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                            All rights reserved | <i class="icon-heart text-danger"
+                                                     aria-hidden="true"></i> <a
+                                href="https://colorlib.com" target="_blank">RenTrip</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </small></p>
 
                     </div>
                 </div>
