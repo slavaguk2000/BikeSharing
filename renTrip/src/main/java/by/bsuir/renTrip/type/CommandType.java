@@ -24,6 +24,26 @@ public enum CommandType {
         {
             this.command = new RegistrationCommand();
         }
+   },
+    EDIT_BIKE{
+        {
+            this.command = new EditBikeCommand();
+        }
+    },
+    RENT_BIKE{
+        {
+            this.command = new RentBikeCommand();
+        }
+    },
+    GET_ORDERS{
+        {
+            this.command = new GetOrdersCommand();
+        }
+    },
+    SAVE_EDIT_BIKE{
+        {
+            this.command = new SaveEditBikeCommand();
+        }
     };
     ActionCommand command;
 
