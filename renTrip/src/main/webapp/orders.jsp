@@ -164,21 +164,6 @@
                                     </form>
                                 </c:if>
 
-                                <c:if test="${role eq 'admin' && !order.status}">
-                                    <form action="${pageContext.request.contextPath}/renTrip" method="post" style="display: inline">
-                                        <input type="hidden" name="order_id" value="${order.id}"/>
-                                        <input type="submit" value="Confirm" class="btn btn-primary">
-                                        <input type="hidden" name="command" value="confirm_order"/>
-                                    </form>
-                                </c:if>
-                                <c:if test="${role eq 'admin' && order.status}">
-                                    <form action="${pageContext.request.contextPath}/renTrip" method="post">
-                                        <input type="hidden" name="order_id" value="${order.id}"/>
-                                        <input type="submit" value="Complete" class="btn btn-primary">
-                                        <input type="hidden" name="command" value="cancel_order"/>
-                                    </form>
-                                </c:if>
-
                             </div>
                         </div>
                     </div>
