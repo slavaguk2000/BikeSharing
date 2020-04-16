@@ -21,9 +21,11 @@ public class GetOrdersCommand implements ActionCommand {
         String role = (String) request.getSession().getAttribute("role");
         int userId = (int) request.getSession().getAttribute("id");
         List<Order> orders = null;
-   
+        if(role.equals("user")){
             orders = OrderRepository.getInstance().query(new OrderSelectByUserIdSpecification(userId));
-
+        }else if(role.equals("admin")){
+            orders = OrderRepository.getInstance().query(new OrderSelectAllSpecification());
+        }
         orders.forEach(o->o.setImage("bike_image/" + o.getImage()));
         request.getSession().setAttribute("orders", orders);
         return router;

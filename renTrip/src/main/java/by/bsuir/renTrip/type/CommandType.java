@@ -15,6 +15,11 @@ public enum CommandType {
             this.command = new GetBikeListCommand();
         }
     },
+    ADD_BIKE{
+        {
+            this.command = new AddBikeCommand();
+        }
+    },
     LOGIN{
         {
             this.command = new LoginCommand();
@@ -24,7 +29,7 @@ public enum CommandType {
         {
             this.command = new RegistrationCommand();
         }
-   },
+    },
     EDIT_BIKE{
         {
             this.command = new EditBikeCommand();
@@ -44,7 +49,18 @@ public enum CommandType {
         {
             this.command = new SaveEditBikeCommand();
         }
+    },
+    CANCEL_ORDER{
+        {
+            this.command = new CancelOrderCommand();
+        }
+    },
+    CONFIRM_ORDER{
+        {
+            this.command = new ConfirmOrderCommand();
+        }
     };
+
     ActionCommand command;
 
     public ActionCommand getCurrentCommand() {
