@@ -10,6 +10,7 @@ import by.bsuir.renTrip.repository.impl.OrderRepository;
 import by.bsuir.renTrip.repository.specification.bike.BikeUpdateStatusSpecification;
 import by.bsuir.renTrip.repository.specification.client.ClientUpdateDecrStatusSpecification;
 import by.bsuir.renTrip.repository.specification.order.OrderDeleteByIdSpecification;
+import by.bsuir.renTrip.service.CancelOrderService;
 import by.bsuir.renTrip.type.PageChangeType;
 
 import javax.servlet.http.HttpServletRequest;
@@ -29,15 +30,9 @@ public class CancelOrderCommand implements ActionCommand {
         int orderId = Integer.parseInt(request.getParameter("order_id"));
 
         List<Order> orders = (List<Order>) request.getSession().getAttribute("orders");
-        Order order = orders.stream()
-                .filter(obj -> orderId == obj.getId())
-                .findFirst().orElse(null);
-
-        orders.remove(order);
-        OrderRepository.getInstance().update(new OrderDeleteByIdSpecification(orderId));
-        BikeRepository.getInstance().update(new BikeUpdateStatusSpecification(order.getBikeId(), 0));
-        ClientRepository.getInstance().update(new ClientUpdateDecrStatusSpecification(order.getUserId()));
-
+        new CancelOrderService().controlOrders(orderId, orders);
         return getRouter();
     }
+
+
 }

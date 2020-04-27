@@ -6,6 +6,7 @@ import by.bsuir.renTrip.controller.Router;
 import by.bsuir.renTrip.entity.Order;
 import by.bsuir.renTrip.repository.impl.OrderRepository;
 import by.bsuir.renTrip.repository.specification.order.OrderUpdateStatusAndTimeByIdSpecification;
+import by.bsuir.renTrip.service.ConfirmOrderService;
 import by.bsuir.renTrip.type.PageChangeType;
 
 import javax.servlet.http.HttpServletRequest;
@@ -20,12 +21,10 @@ public class ConfirmOrderCommand implements ActionCommand {
         int orderId = Integer.parseInt(request.getParameter("order_id"));
 
         List<Order> orders = (List<Order>) request.getSession().getAttribute("orders");
-        orders.stream()
-                .filter(obj -> orderId == obj.getId())
-                .findFirst().ifPresent(o -> o.setStatus(true));
-
-        OrderRepository.getInstance().update(new OrderUpdateStatusAndTimeByIdSpecification(orderId));
+        new ConfirmOrderService().confirm(orderId, orders);
 
         return CancelOrderCommand.getRouter();
     }
+
+
 }

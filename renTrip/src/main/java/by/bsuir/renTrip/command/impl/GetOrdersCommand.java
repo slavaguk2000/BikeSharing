@@ -7,6 +7,7 @@ import by.bsuir.renTrip.entity.Order;
 import by.bsuir.renTrip.repository.impl.OrderRepository;
 import by.bsuir.renTrip.repository.specification.order.OrderSelectAllSpecification;
 import by.bsuir.renTrip.repository.specification.order.OrderSelectByUserIdSpecification;
+import by.bsuir.renTrip.service.GetOrdersService;
 import by.bsuir.renTrip.type.PageChangeType;
 
 import javax.servlet.http.HttpServletRequest;
@@ -21,13 +22,10 @@ public class GetOrdersCommand implements ActionCommand {
         String role = (String) request.getSession().getAttribute("role");
         int userId = (int) request.getSession().getAttribute("id");
         List<Order> orders = null;
-        if(role.equals("user")){
-            orders = OrderRepository.getInstance().query(new OrderSelectByUserIdSpecification(userId));
-        }else if(role.equals("admin")){
-            orders = OrderRepository.getInstance().query(new OrderSelectAllSpecification());
-        }
-        orders.forEach(o->o.setImage("bike_image/" + o.getImage()));
+        orders = new GetOrdersService().getOrders(role, userId, orders);
         request.getSession().setAttribute("orders", orders);
         return router;
     }
+
+
 }
