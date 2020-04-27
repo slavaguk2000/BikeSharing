@@ -17,12 +17,15 @@ import java.util.List;
 
 @SuppressWarnings("unchecked")
 public class CancelOrderCommand implements ActionCommand {
-
-    @Override
-    public Router execute(HttpServletRequest request) {
+    public static Router getRouter(){
         Router router = new Router();
         router.setPage(ConfigurationManager.getProperty("path.page.orders"));
         router.setWay(PageChangeType.FORWARD);
+        return router;
+    }
+    @Override
+    public Router execute(HttpServletRequest request) {
+
         int orderId = Integer.parseInt(request.getParameter("order_id"));
 
         List<Order> orders = (List<Order>) request.getSession().getAttribute("orders");
@@ -35,6 +38,6 @@ public class CancelOrderCommand implements ActionCommand {
         BikeRepository.getInstance().update(new BikeUpdateStatusSpecification(order.getBikeId(), 0));
         ClientRepository.getInstance().update(new ClientUpdateDecrStatusSpecification(order.getUserId()));
 
-        return router;
+        return getRouter();
     }
 }

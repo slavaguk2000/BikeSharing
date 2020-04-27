@@ -16,9 +16,7 @@ public class ConfirmOrderCommand implements ActionCommand {
 
     @Override
     public Router execute(HttpServletRequest request) {
-        Router router = new Router();
-        router.setPage(ConfigurationManager.getProperty("path.page.orders"));
-        router.setWay(PageChangeType.FORWARD);
+
         int orderId = Integer.parseInt(request.getParameter("order_id"));
 
         List<Order> orders = (List<Order>) request.getSession().getAttribute("orders");
@@ -28,6 +26,6 @@ public class ConfirmOrderCommand implements ActionCommand {
 
         OrderRepository.getInstance().update(new OrderUpdateStatusAndTimeByIdSpecification(orderId));
 
-        return router;
+        return CancelOrderCommand.getRouter();
     }
 }
