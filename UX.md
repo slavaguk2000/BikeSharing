@@ -23,27 +23,27 @@
 
 * ###  Добавление информации в раздел FAQ на главной странице сайта
     ####  До 
-    ![]()
+    ![](https://github.com/slavaguk2000/RenTrip/blob/master/Screenshots/1_1.jpg)
     ####  После 
-    ![]()  
+    ![](https://github.com/slavaguk2000/RenTrip/blob/master/Screenshots/1_2.jpg)  
     
 * ###  Улучшение отображения заказов
     ####  До 
-    ![]()
+    ![](https://github.com/slavaguk2000/RenTrip/blob/master/Screenshots/2_1.jpg)
     ####  После 
-    ![]()
+    ![](https://github.com/slavaguk2000/RenTrip/blob/master/Screenshots/2_2.jpg)
     
 * ###  Изменение кнопки загрузки изображения 
     ####  До 
-    ![]()
+    ![](https://github.com/slavaguk2000/RenTrip/blob/master/Screenshots/4_1.jpg)
     ####  После 
-    ![]()
+    ![](https://github.com/slavaguk2000/RenTrip/blob/master/Screenshots/4_2.jpg)
     
 * ###  Уведомление пользователя об ограниченном количестве забронированных велосипедов
     ####  До 
-    ![]()
+    ![](https://github.com/slavaguk2000/RenTrip/blob/master/Screenshots/3_1.jpg)
     ####  После 
-    ![]()
+    ![](https://github.com/slavaguk2000/RenTrip/blob/master/Screenshots/3_2.png)
 
 
 
