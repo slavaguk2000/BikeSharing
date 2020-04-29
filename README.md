@@ -5,7 +5,7 @@
 
 ## Ссылки на лабораторные работы:
 - [Исследование архитектурного решения](./Architecture.md)  
-- [Парное программирование](./"Pair Programming")  
-- [Технический долг](./"Technical debt.md")  
+- [Парное программирование](https://github.com/slavaguk2000/RenTrip/tree/master/Pair%20Programming)  
+- [Технический долг](https://github.com/slavaguk2000/RenTrip/blob/master/Technical%20debt.md)  
 - [Улучшения UX](./UX.md)
 
