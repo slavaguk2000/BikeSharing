@@ -64,7 +64,7 @@
     <maven.compiler.source>1.8</maven.compiler.source><!-- 指定源代码使用的JDK版本 -->
     <maven.compiler.target>1.8</maven.compiler.target><!-- 指定需要生成的目标class文件的编译版本 -->
     <maven.test.skip>true</maven.test.skip><!-- 跳过测试 -->
-    <spring.version>5.1.4.RELEASE</spring.version>
+    <spring.version>5.3.18</spring.version>
   </properties>
 
   <!-- FIXME 根据项目需要，在这里添加第三方依赖包 -->
